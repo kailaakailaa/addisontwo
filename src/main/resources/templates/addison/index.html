@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <div th:replace="/fragments/styling :: head-style"></div>
+    <title>Blog Site</title>
+</head>
+<body>    
+  
+    <div class="container">
+      <div th:replace="fragments/navbar :: navbar" ></div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Addisons & I</h1>
+              <p class="lead">Whats up? You are probably here bc you have it too, Someone you know has it.<br>
+                 or maybe you are in my business... or MAYBE this is just my class project.. Hey Yall!
+
+              </p>
+            </div>
+          </div>  
+          
+    <div th:replace="fragments/footer :: footer" ></div>
+    <div th:replace="/fragments/styling :: body-links"></div>    
+</body>
+</html> 
